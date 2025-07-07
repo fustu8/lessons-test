@@ -176,9 +176,8 @@
 #   Keep_going = False
 #   print("i am still learing python")
 
-#   for i in range(3): 
+#   for i in range(3):
 #     print("i in range", i + 1)
-
 
 
 # lives = 2
@@ -186,33 +185,33 @@
 # print("Lives left:", lives)
 # print("You still got a chance!")
 
-      
+
 # lives = lives-1
-# print("Lives left:" ,str(lives) ) 
+# print("Lives left:" ,str(lives) )
 # print("Game over!")
 
 # for i in range (8):
-#     print("i am trying")  
+#     print("i am trying")
 
 # ver = 80
 
-# while ver < 91 : 
+# while ver < 91 :
 #     print("who are we ", ver)
 #     ver += 1
 
 
-# batata = 0   
+# batata = 0
 
 # while batata <= 15:
 #  print(batata)
 #  batata += 1
- 
+
 
 # print ("form 0 to 4:")
 
 # for num in range (5):
 #     print(num)
-   
+
 # print("from 1 to 4")
 
 # number= 1
@@ -222,12 +221,10 @@
 #     number += 1
 
 
-
-
 # for i in range(1, 6):
 #  if i == 2:
 #   continue
- 
+
 #  print(i)
 
 # for x in range (1, 11):
@@ -253,15 +250,11 @@
 #  print(f"don't forget to buy this items:{i}")
 
 # for i in range (1,8):
- 
+
 #  if i == 5 :
 #   continue
- 
+
 #  print(i)
-
-
-
-
 
 
 # password_user0 = "open_sesame"
@@ -274,7 +267,6 @@
 #    print("Incorrect password. Try again.")
 
 
-
 # password_user1 = "1233"
 
 
@@ -285,18 +277,18 @@
 #     break
 #  else:
 #      print("Incorrect password")
-     
+
 # count = 0
 # while count < 5:
 #   if count == 3:
 #     count = count + 1
-#     continue 
+#     continue
 #   print(count)
 #   count = count + 1
 
-#if i want it to continue |
-#                         | 
-#                         
+# if i want it to continue |
+#                         |
+#
 
 
 # count = 0
@@ -309,16 +301,15 @@
 #   count = count + 1
 
 
-# if i want it to break 
+# if i want it to break
 
-# count1 = 0 
+# count1 = 0
 
 # while count1 < 5:
 #   if count1 == 3:
 #     break
 #   print (count1)
 #   count1 = count1 + 1
-
 
 
 # home_items = ["milk,", "orange juice,", "water" ]
@@ -328,7 +319,6 @@
 # print("\npersonal items:", personal_items[0],personal_items[1],personal_items[2])
 
 # print("                                                              ")
-
 
 
 # for i in range (4):
@@ -350,30 +340,30 @@
 # temp[0] = 30
 
 # print(temp)
-#lists
+# lists
 # text = ["water", "avocado" , "milk"]
 # #to add alamunium to the last element
 # text.append("alamunium")
-# #to remove water 
+# #to remove water
 # text.remove(text[0])
 # #to add "200" on the first element which is zero
 # text.insert(0,"200")
-# #to remove the last element which is alamuium the element that we added to the last using append 
+# #to remove the last element which is alamuium the element that we added to the last using append
 # text.pop()
-# #we can also chose which element we can pob and i choose to remove 2nd element which is avocado 
+# #we can also chose which element we can pob and i choose to remove 2nd element which is avocado
 # text.pop(1)
-# #we can also store the removed value in a variable 
+# #we can also store the removed value in a variable
 # removed_test =text.pop(0)
-# #print the removed value 
+# #print the removed value
 # print (removed_test)
-# #move milk in a variable 
+# #move milk in a variable
 # move_milk = text.pop(0)
-# #print the moved variable 
+# #print the moved variable
 # print(move_milk)
-# #add any thing to the list 
+# #add any thing to the list
 # text.insert(0,"there its nothing inside")
 
-# #show the user the text 
+# #show the user the text
 
 # print(text)
 
@@ -385,39 +375,38 @@
 # print(all_examples[2], all_examples[0], all_examples[1] )
 
 
-# cake = ["chocolate","strawberry", "pistachio"] 
+# cake = ["chocolate","strawberry", "pistachio"]
 # cake[1] = "apple"
 # print(cake)
-
 
 
 # num = [1,2,3]
 # num.append(4)
 # print(num)
-           
+
 # final_scores = [12,14,15,16]
 
 # for scores in final_scores :
 
 #     print(scores)
-    
+
 
 # names = ["ahmad", "mohammed", "abdullah"]
 
-# for i in names : 
+# for i in names :
 #     print(i)
 
 
-# names2 = ["hello", "world", "i", "love", "coding"] 
+# names2 = ["hello", "world", "i", "love", "coding"]
 
 # print(len(names2))
 
 # chores = ["clean", "do study", "bring home items"]
 # chores = []
-# if len(chores) > 0 : 
+# if len(chores) > 0 :
 #     print ("i still have a lot of work to do ")
-# else: 
-#     print("i am done")    
+# else:
+#     print("i am done")
 
 # ver = [1.2,1.3,1.4]
 # print(ver[0], ver[1], ver[2], ver[2] + 0.1)
@@ -435,7 +424,6 @@
 # print(int(user_input) + int(value))
 
 
-
 # apples = 20
 
 # ask_cus = input("how many apple do you want? ")
@@ -443,16 +431,14 @@
 # requested_apples = int(ask_cus)
 
 # if requested_apples <= apples:
-    
+
 #  print(f"here is your {ask_cus} apples the you requested")
 
-# else: 
+# else:
 #   print("we don't have that much of apples in store ")
 
 
-
-
-# mangos = 50 
+# mangos = 50
 
 # while mangos > 0 :
 
@@ -460,7 +446,7 @@
 
 #     user_input_str = input("how many mangos would you like to buy ,(Type 'exit' if you want to quit  ) ")
 
-#     if user_input_str.lower() == 'exit' : 
+#     if user_input_str.lower() == 'exit' :
 #         print("Good bye :( we hope to see you next time ")
 #         break
 
@@ -480,27 +466,13 @@
 
 #         mangos = mangos - user_into_int
 #     else:
-        
+
 #         print(f"we don't have that many. we only have {mangos} left.")
 
 # print("\n--- sorry we are all out of apples--- ")
 
 
+for i in range(11):
+    print("hello") 
 
     
-
-for i in range(11):
-  print("hello")
-
-
-
-
-
-
-
-
-
-
-
-
-
