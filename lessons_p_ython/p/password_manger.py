@@ -7,30 +7,31 @@ user2_pass = "1221"
 user3_pass = "1889"
 user4_pass = "1334"
 
+
 while True:
 
     user_input = input("what is your user name : ") 
+    ask_user_pass = input ("what is your pass for")
     
     if user_input == user_1.title():
-        print("what is your password for user_1")
+        print(ask_user_pass,user_input)
         
     if user_input == user_2.title():
-        print("what is your password for user_2 ")
+        print(ask_user_pass,user_input)
         
     if user_input == user_3.title(): 
-        print("what is your password for user_3")
+        print(ask_user_pass,user_input)
         
     if user_input == user_4.title():
-        print("what is your password for user_4") 
+        print(ask_user_pass,user_input)
+        
     
     else :
         print("user unidentified try again") 
         continue
 
-    pass_input = input("")
-
-    if pass_input == user1_pass : 
-        print("welcome the your account")
+   
+    
 
 
 
