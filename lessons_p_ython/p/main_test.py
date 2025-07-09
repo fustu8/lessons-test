@@ -191,7 +191,14 @@
 #     print(char, index)
 
 
-    
+# hello = "hello"
+# print (len(hello))
+# for it in range (3): 
+#     print("python")
+
+
+
+
 
 
 
