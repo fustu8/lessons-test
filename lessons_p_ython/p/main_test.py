@@ -196,13 +196,53 @@
 # for it in range (3): 
 #     print("python")
 
+# prt = "print" * 5 
+
+# print(prt)
+
+# add = 43
+# eggs = 2 
+
+# print (add + eggs + add )
+
+# spam = 'hello '
+# spam = 'welcome'
+
+# print(spam)
 
 
+#print variable with _ because space is no allowed 
+ 
+
+greeting_customer = "welcome"
+
+print (greeting_customer)
+
+#print a variable with a number after the letter like a 
+
+a4 = "we need 10 a 4 paper please"
+
+print (a4)
+
+#we can also print the underscore before the number 
+
+_43 = "this is only for test reasons "
+
+print (_43)
+
+#special characters are not allowed like ($,',^) for variables
 
 
+#Hello$ = this variable will not work
+# hello = "this will not work "
 
+# print(hello$)
+      
+#inited we can print 
 
+hello_Dollar = "hello "
 
+print(hello_Dollar)
 
 
 
