@@ -8,39 +8,71 @@ user3_pass = "1889"
 user4_pass = "1334"
 
 
-user_input = input("what is your user name : ")
-ask_user_pass = input("what is your pass for the account")
+while True: 
 
-while True:
 
-    if user_input == user_1.lower():
-        print(ask_user_pass)
+    user_input = input("\nwhat is your user name : ")
+    ask_user_pass = input(f"what is your pass for the account {user_input} : ")
 
-    if user_input == user_2.lower():
-        print(ask_user_pass)
 
-    if user_input == user_3.lower():
-        print(ask_user_pass)
+    if user_input.lower() == user_1.lower():
 
-    if user_input == user_4.lower():
-        print(ask_user_pass)
+        if ask_user_pass == user1_pass:
+             print(f"welcome to your account, {user_1}")
+             break
+        else:
+           print("Incorrect password.try again.")
+           continue
+        
+
+    elif user_input.lower() == user_2.lower():
+
+        if ask_user_pass == user2_pass :
+            print(f"welcome to your account, {user_2}")
+            break 
+        else: 
+            print("Incorrect password. Try again.")
+            continue     
+
+
+    
+    elif user_input.lower() == user_3.lower():
+
+        if ask_user_pass == user3_pass : 
+            print(f"Welcome to your account,{user_3}")
+            break
+        else:
+            print("Incorrect password. Try again.")
+            continue 
+    
+
+    elif user_input.lower() == user_4.lower():
+        
+        if  ask_user_pass == user4_pass : 
+            print(f"Welcome to your account , {user_4}")
+            break
+
+        else:
+            print("Incorrect password . Try again.")
+            continue 
+    
 
     else:
-        print("unidentified")
-        break
+        print("user name not found ")
 
-    if ask_user_pass == user1_pass:
-        print("Welcome to your account user1")
-        break
-    if ask_user_pass == user2_pass:
-        print("Welcome to your account user2")
-        break
-    if ask_user_pass == user3_pass:
-        print("Welcome to your account user3")
-        break
-    if ask_user_pass == user4_pass:
-        print("welcome to your account user4")
-        break
-    else:
-        print("wrong pass try again")
-        continue
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
