@@ -214,21 +214,21 @@
 #print variable with _ because space is no allowed 
  
 
-greeting_customer = "welcome"
+# greeting_customer = "welcome"
 
-print (greeting_customer)
+# print (greeting_customer)
 
 #print a variable with a number after the letter like a 
 
-a4 = "we need 10 a 4 paper please"
+# a4 = "we need 10 a 4 paper please"
 
-print (a4)
+# print (a4)
 
 #we can also print the underscore before the number 
 
-_43 = "this is only for test reasons "
+# _43 = "this is only for test reasons "
 
-print (_43)
+# print (_43)
 
 #special characters are not allowed like ($,',^) for variables
 
@@ -240,15 +240,42 @@ print (_43)
       
 #inited we can print 
 
-hello_Dollar = "hello "
+# hello_Dollar = "hello "
 
-print(hello_Dollar)
+# print(hello_Dollar)
+
+# spam = "hello"
+
+#this program says hello and saks for my name . 
+
+# print('hello world!')
+# print('What is your name?') #ask their name.
+# my_name = input('>')
+# print('Its good to meet you, ' + my_name)
+# print('the length of your name is : ')
+# print(len(my_name))
+# print('what is your age?') #ask their age . 
+# my_age = input('>')
+# print('You will be ' + str(int(my_age) + 1) + ' in a year.')  
 
 
 
-        
+# spam = input()
+# spam = int(spam)
+# print(spam * 10 / 5)
+# print(type(spam))
+
+# print(type(42))
+# print(type(42.00))
+# print(type('forty two'))
+
+# name = "Zophie"
+# print(type(name))
+# print(type(len(name)))
+# print(len(name))
 
 
+# print(round(3.2))
 
 
 
