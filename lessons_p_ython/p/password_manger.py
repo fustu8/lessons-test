@@ -62,13 +62,42 @@ while True:
 
 
 
+###############################################################################################################################
+
+ #profitional way 
+
+user_database = {
+    "user1": "1234",
+    "user2": "1221",
+    "user3": "1889", 
+    "user4": "1334"
+}
 
 
- 
+
+while True:
+
+    user_input = input("\nEnter your username (or type 'exit to quit): ")
+
+    if user_input.lower() == 'exit' : 
+        print ("Goodbye!")
+        break
 
 
 
+    if user_input.lower() in user_database : 
 
+        ask_user_pass = input(f"Enter the password for {user_input}: ")
+
+        
+        if ask_user_pass == user_database[user_input.lower()]:
+            print(f"\nWelcome to your account, {user_input}!")
+            break
+        else: 
+            print("Incorrect password. try again. ")
+
+    else:
+        print("User not found. Please try again")                
 
 
 
