@@ -134,32 +134,27 @@
 # #         "\nWhose availability do you want to check? (Type 'exit' to quit) "
 # #     )
 
-    # # Add a way to exit the loop
-    # if user_input.lower() == "exit":
-    #     print("Goodbye!")
-    #     break
+# # Add a way to exit the loop
+# if user_input.lower() == "exit":
+#     print("Goodbye!")
+#     break
 
-    # # --- Checking Availability (The Smart Way) ---
-    # # We check if the name the user typed exists as a key in our dictionary.
-    # # We use .lower() to make it case-insensitive.
-    # if user_input.lower() in people_availability:
-    #     # If the name is in the dictionary, we can get their status directly.
-    #     name_key = user_input.lower()
-    #     status = people_availability[name_key]
-    #     print(f"--> {name_key.title()} is {status} today.")
+# # --- Checking Availability (The Smart Way) ---
+# # We check if the name the user typed exists as a key in our dictionary.
+# # We use .lower() to make it case-insensitive.
+# if user_input.lower() in people_availability:
+#     # If the name is in the dictionary, we can get their status directly.
+#     name_key = user_input.lower()
+#     status = people_availability[name_key]
+#     print(f"--> {name_key.title()} is {status} today.")
 
-    #     # This checks if the person is the one available to end the program
-    #     if status == "available":
-    #         print("--> Found someone available! Program will now exit.")
-    #         break
-    # else:
-        
+#     # This checks if the person is the one available to end the program
+#     if status == "available":
+#         print("--> Found someone available! Program will now exit.")
+#         break
+# else:
+
 # #         print("--> There is no one with this name in the group.")
-
-
-
-
-
 
 
 # text = 'Hello World'
@@ -170,11 +165,11 @@
 # print(text[3])
 # print(text[4])
 # print(text[5])
-# print(text[6])       
+# print(text[6])
 # print(text[7])
 # print(text[8])
 # print(text[-9])
-# print(len(text))          
+# print(len(text))
 # index = text.find(text[0])
 # print(index)
 # print(text.lower())
@@ -193,15 +188,15 @@
 
 # hello = "hello"
 # print (len(hello))
-# for it in range (3): 
+# for it in range (3):
 #     print("python")
 
-# prt = "print" * 5 
+# prt = "print" * 5
 
 # print(prt)
 
 # add = 43
-# eggs = 2 
+# eggs = 2
 
 # print (add + eggs + add )
 
@@ -211,34 +206,34 @@
 # print(spam)
 
 
-#print variable with _ because space is no allowed 
- 
+# print variable with _ because space is no allowed
+
 
 # greeting_customer = "welcome"
 
 # print (greeting_customer)
 
-#print a variable with a number after the letter like a 
+# print a variable with a number after the letter like a
 
 # a4 = "we need 10 a 4 paper please"
 
 # print (a4)
 
-#we can also print the underscore before the number 
+# we can also print the underscore before the number
 
 # _43 = "this is only for test reasons "
 
 # print (_43)
 
-#special characters are not allowed like ($,',^) for variables
+# special characters are not allowed like ($,',^) for variables
 
 
-#Hello$ = this variable will not work
+# Hello$ = this variable will not work
 # hello = "this will not work "
 
 # print(hello$)
-      
-#inited we can print 
+
+# inited we can print
 
 # hello_Dollar = "hello "
 
@@ -246,7 +241,7 @@
 
 # spam = "hello"
 
-#this program says hello and saks for my name . 
+# this program says hello and saks for my name .
 
 # print('hello world!')
 # print('What is your name?') #ask their name.
@@ -254,10 +249,9 @@
 # print('Its good to meet you, ' + my_name)
 # print('the length of your name is : ')
 # print(len(my_name))
-# print('what is your age?') #ask their age . 
+# print('what is your age?') #ask their age .
 # my_age = input('>')
-# print('You will be ' + str(int(my_age) + 1) + ' in a year.')  
-
+# print('You will be ' + str(int(my_age) + 1) + ' in a year.')
 
 
 # spam = input()
@@ -278,14 +272,71 @@
 # print(round(3.2))
 
 
+# meal_price = 15.99
+# print("Welcome to your meal restaurant")
+
+# while True:
+#     user_input = input("\nYour meal price is 15.99. Please enter the amount you will pay: ")
+
+#     try:
+#         user_input_float = float(user_input)
+#     except ValueError:
+#         print("Invalid input. Please enter a number, not letters or special characters.")
+#         continue
+
+#     if user_input_float == meal_price:
+#         print("Thank you for choosing your meal.")
+#         break
+#     elif user_input_float < meal_price:
+#         print("The money or your card is not enough to pay for your meal.")
+#         continue
+#     elif user_input_float > meal_price:
+#         print("Thank you for choosing our meal.")
+#         break
 
 
+# test = True
+# print(test)
+
+# test_2 = False
+# print(False)
 
 
+# print examples
 
 
+# test = 33 == 33
+# print(test)
+
+# test2 = 55 == 98
+# print(test2)
+
+# test3 = 4 != 5
+# print(test3)
+
+# test4 = 4 != 4
+# print(test4)
 
 
+# beta = 'hello' == 'hello'
+# print(beta)
 
+# beta1 = 'hello' == 'Hello'
+# print(beta1)
+
+# beta2 = 'dog' != 'cat'
+# print(beta2)
+
+# beta3 = True == True
+# print(beta3)
+
+# beta4 = True != False
+# print(beta4)
+
+# beta5 = 42 == 42.0
+# print(beta5)
+
+# beta6 = 42 == '42'
+# print(beta6)
 
 
