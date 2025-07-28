@@ -273,15 +273,23 @@
 
 
 # meal_price = 15.99
+
 # print("Welcome to your meal restaurant")
 
 # while True:
+#     print("\nto close the app type \"exit\"")
 #     user_input = input("\nYour meal price is 15.99. Please enter the amount you will pay: ")
+
+#     if user_input == "exit" :
+#         print("\nGood bye :( hope to see you again next time")
+#         print("")
+#         exit()
+
 
 #     try:
 #         user_input_float = float(user_input)
 #     except ValueError:
-#         print("Invalid input. Please enter a number, not letters or special characters.")
+#         print("Invalid input. Please enter a number not letters")
 #         continue
 
 #     if user_input_float == meal_price:
@@ -339,4 +347,78 @@
 # beta6 = 42 == '42'
 # print(beta6)
 
+# print("hello")
 
+# x = "hello"
+
+# print(x)
+
+# print("muhammed")
+
+# name = "Muhammed"
+# last_name = "Aref"
+# print("my name is " + name + " " + last_name)
+
+
+# print(4/2)
+# print(3**4)
+# print(4/3)
+# print((5 + 3) * 2 / 3)
+
+
+# students = ["Mohammed","Abdullah", "Ali","Omar"]
+# new_student = input("what is you name ? Type exit to cancel: ")
+
+# if new_student.lower() == "exit":
+#     print("good bye")
+#     exit()
+
+
+# students.append(new_student)
+# print(students)
+# total = len(students)
+# print(f"There are total students of {total} in our class now")
+
+
+# students.clear()
+# students.insert(0,"mohammed")
+# print(students)
+
+# x = 1
+
+# for s in students :
+#     print("Student " + str(x) + ": " + s)
+#     x += 1
+
+
+# grocery_list = ["apple", "watermelon","avocado","orange"]
+# c = 1
+# total_items = len(grocery_list)
+
+# for g in grocery_list :
+#     print("Item " + str(c) + ": " + g )
+#     c += 1
+
+
+# print("\nTotal items is " + str(total_items))
+
+
+# remove_items = input("choose a item to remove : ")
+
+# if remove_items in grocery_list :
+#     grocery_list.remove(remove_items)
+
+
+# print("\nthis are the remaining items" + "\n\n" + str(grocery_list))
+
+
+# students.append("Sami")
+# students.pop()
+# students.insert(3,"Hello")
+# students_r = students.remove(students[3])
+# students_in = students.insert(3,"Luqman")
+
+
+test = [12, 33, 43]
+test.reverse()
+print(test)
